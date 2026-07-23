@@ -1,46 +1,52 @@
-from typing import List
-
-from pydantic import BaseModel, Field
 from dotenv import load_dotenv
+import openai
+
 
 load_dotenv()
 from langchain.agents import create_agent
 from langchain.tools import tool
-from langchain_core.messages import HumanMessage
+from langchain.messages import  HumanMessage
 from langchain_openai import ChatOpenAI
+#from tavily import TavilyClient
+
 from langchain_tavily import TavilySearch
 
+#tavily = TavilyClient()
+newTools = [TavilySearch()]
 
-class Source(BaseModel):
-    """Schema for a source used by the agent"""
+#Langchain Tool is a function which agent can execute. 
+'''
+@tool
+def search(query: str) -> str:
+    \'''
+    Tool that searches over internet
+    Args:
+        query (str): The search query to be executed.
+    Returns:
+        str: The search results.
+    \'''
 
-    url: str = Field(description="The URL of the source")
-
-
-class AgentResponse(BaseModel):
-    """Schema for agent response with answer and sources"""
-
-    answer: str = Field(description="Thr agent's answer to the query")
-    sources: List[Source] = Field(
-        default_factory=list, description="List of sources used to generate the answer"
-    )
+    print(f"Searching for: {query}")
+    #return f"Tokyo is very sunny"
+    return tavily.search(query=query, num_results=3)
+'''    
 
 
 llm = ChatOpenAI(model="gpt-5")
-tools = [TavilySearch()]
-agent = create_agent(model=llm, tools=tools, response_format=AgentResponse)
+
+# ollama does not support tools
+#llm = ChatOllama(temperature=0, model="gemma3:270m", max_tokens=1000)
+
+# List of tools
+#tools = [search]
+agent = create_agent(model=llm, tools=newTools)
 
 
 def main():
-    print("Hello from langchain-course!")
-    result = agent.invoke(
-        {
-            "messages": HumanMessage(
-                content="search for 3 job postings for an ai engineer using langchain in the bay area on linkedin and list their details?"
-            )
-        }
-    )
-    print(result)
+    print("Hello, World!")
+    #result = agent.invoke({"messages":[HumanMessage(content="What is the weather in Tokyo?")]})
+    result = agent.invoke({"messages":[HumanMessage(content="Search for 3 job postings for an AI engineer using langchain in Sydney area and list their details?")]})
+    print(f"Agent Result: {result}")
 
 
 if __name__ == "__main__":

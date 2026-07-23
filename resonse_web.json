@@ -1,0 +1,45 @@
+{
+    "query": "current weather in Tokyo",
+    "follow_up_questions": null,
+    "answer": null,
+    "images": [],
+    "results": [
+        {
+            "title": "Weather in Tokyo",
+            "url": "https://www.weatherapi.com/",
+            "content": "{'location': {'name': 'Tokyo', 'region': 'Tokyo', 'country': 'Japan', 'lat': 35.6895, 'lon': 139.6917, 'tz_id': 'Asia/Tokyo', 'localtime_epoch': 1784788047, 'localtime': '2026-07-23 15:27'}, 'current': {'last_updated_epoch': 1784787300, 'last_updated': '2026-07-23 15:15', 'temp_c': 36.0, 'temp_f': 96.8, 'is_day': 1, 'condition': {'text': 'Partly cloudy', 'icon': '//cdn.weatherapi.com/weather/64x64/day/116.png', 'code': 1003}, 'wind_mph': 14.8, 'wind_kph': 23.8, 'wind_degree': 149, 'wind_dir': 'SSE', 'pressure_mb': 1006.0, 'pressure_in': 29.71, 'precip_mm': 0.0, 'precip_in': 0.0, 'humidity': 50, 'cloud': 50, 'feelslike_c': 41.1, 'feelslike_f': 106.0, 'windchill_c': 36.2, 'windchill_f': 97.1, 'heatindex_c': 41.5, 'heatindex_f': 106.7, 'dewpoint_c': 21.8, 'dewpoint_f': 71.2, 'vis_km': 10.0, 'vis_miles': 6.0, 'uv': 4.4, 'gust_mph': 17.0, 'gust_kph': 27.3, 'will_it_rain': 0, 'chance_of_rain': 3, 'will_it_snow': 0, 'chance_of_snow': 0}}",
+            "score": 0.7685013,
+            "raw_content": null
+        },
+        {
+            "url": "https://www.accuweather.com/en/jp/tokyo/226396/july-weather/226396",
+            "title": "Tokyo, Tokyo, Japan Monthly Weather",
+            "content": "# Tokyo, Tokyo. Today WinterCast Local {stormName} Tracker Hourly 10-Day Radar MinuteCast® Monthly Air Quality Health & Activities. ### Radar & Maps ### News ### Video ### Severe Weather ### Hurricane Tracker. ### Video ### Severe Weather ### Hurricane Tracker. Today   Hourly   10-Day   Radar   MinuteCast®  ## Monthly  Air Quality   Health & Activities. ## July Weather in Tokyo. ## 10-Day. A t-storm around in the p.m. Some rain and a thunderstorm. Humid; a little p.m. rain. Humid; a stray a.m. t-storm. Tokyo's July 2026 forecast shows daily high temperatures ranging from 29.4° to 38.1°, with overnight lows between 23.7° and 27.4°. AccuWeather's monthly forecast extends further ahead than any other source, with day-by-day RealFeel® Temperatures giving a complete picture of how July weather will actually feel in Tokyo. High risk for severe weather to erupt in the mid-Atlantic. 2 hours ago  Weather News. 17 hours ago  Weather Forecasts. ## Weather Near Tokyo:. AccuWeather Ready   Business   Health   Hurricane   Leisure and Recreation   Severe Weather   Space and Astronomy   Sports   Travel   Weather News.",
+            "score": 0.7213709,
+            "raw_content": null
+        },
+        {
+            "url": "https://www.timeanddate.com/weather/japan/tokyo/ext",
+            "title": "Tokyo, Japan 14 day weather forecast",
+            "content": "*   Date to Date Calculator (duration). *   Business Date to Date (exclude holidays). Image 2: Flag for Japan. # Tokyo 14 Day Extended Forecast. Image 3: Decreasing cloudiness.Currently: 91°F. (Weather station: Tokyo Heliport, Japan). ## Tokyo Extended Forecast with high and low temperatures. Jul 19 – Jul 25Jul 26 – Aug 1Aug 2 – Aug 8. ## 2 Week Extended Forecast in Tokyo, Japan. | Wed Jul 22 | Image 4: Sunny. | Thu Jul 23 | Image 5: Morning clouds. | Fri Jul 24 | Image 6: Tstorms early. | 93 / 79°F | Tstorms late. | Sat Jul 25 | Image 7: Isolated tstorms. | 87 / 75°F | Isolated tstorms late. | Thu Jul 30 | Image 12: Decreasing cloudiness. | 90 / 80°F | Isolated tstorms. | Sun Aug 2 | Image 15: Showers late. | 94 / 81°F | Tstorms early. | Wed Aug 5 | Image 18: Tstorms early. #### Love Our Site?",
+            "score": 0.7067782,
+            "raw_content": null
+        },
+        {
+            "url": "https://www.umetravel.com/japan-weather/weather-in-july.html",
+            "title": "Japan Weather in July: Festivals and High-Altitude Escapes(2026)",
+            "content": "# Japan Weather in July: Festivals and High-Altitude Escapes(2026). Japan weather in July is hot and humid. Major cities like Tokyo, Osaka, and Kyoto experience average temperatures ranging from **77°F to 86°F (25°C to 30°C)**, which often peak above **95°F (35°C)** during the day. Ask anyone who's danced through a ***matsuri*** at midnight and they'll tell you: the sweat is worth it. Tokyo's sky is awash with a war of colour in the form of fireworks, while Hokkaido's lavender fields roll out in purple waves that you can smell before you see them. With UME's expertly curated \"cool-down\" itineraries and air-conditioned retreats, you can comfortably navigate the summer heat and experience the most festive month on the Japanese calendar. Summer fireworks festival in Japan in July - Sumida River, Tokyo. **What is the Weather Like in Japan in July?**. Japan weather in July is defined by two phases: the humid tail-end of the ***Tsuyu***(rainy season) in early July, and the hot, sunny ***Manatsu*** (Midsummer) conditions from mid-July onward.",
+            "score": 0.7011614,
+            "raw_content": null
+        },
+        {
+            "url": "https://www.japanhighlights.com/japan/weather-in-july",
+            "title": "Japan Weather in July 2026: Advice for Beating the Heat",
+            "content": "Japan Weather in July 2026: Expert Advice for Beating the Summer Heat. July in Japan is known for its **hot and humid weather**, with daily highs exceeding 37°C (98°F). This month is also the peak of the rainy season, so you might experience frequent showers and occasional heavy downpours. **So is July still worth it for a trip? Yes, if you plan it the right way.** Plan an itinerary with early mornings outdoors, afternoons in air-conditioning, and a schedule that doesn't try to do everything. July is also Japan's most festive month — Kyoto's Gion Festival, Tokyo's Sumida Fireworks, and Osaka's Tenjin Matsuri. ## Japan's Weather and Climate in July. Even though it's around 23-30°C (74-86°F), you will feel above 40 °C （105 °F）because of the high humidity of about 80%. ## Tokyo and Central Japan Weather in July: Hot but Full of Festivals. Yes, July is **muggy in the central Japanese** cities of Tokyo, Kyoto, and Osaka.",
+            "score": 0.66959417,
+            "raw_content": null
+        }
+    ],
+    "response_time": 1.44,
+    "request_id": "9a1dc4ce-735c-4c22-853c-fe24279153e8"
+}

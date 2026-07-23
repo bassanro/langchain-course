@@ -1,0 +1,121 @@
+{
+  "messages": [
+    {
+      "type": "HumanMessage",
+      "content": "What is the weather in Tokyo?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "id": "1d523df8-19e3-44fb-8bd2-bc3a38c2d7e5"
+    },
+    {
+      "type": "AIMessage",
+      "content": "",
+      "additional_kwargs": {
+        "refusal": null
+      },
+      "response_metadata": {
+        "token_usage": {
+          "completion_tokens": 16,
+          "prompt_tokens": 71,
+          "total_tokens": 87,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        },
+        "model_provider": "openai",
+        "model_name": "gpt-4o-2024-08-06",
+        "system_fingerprint": "fp_6cd46c5087",
+        "id": "chatcmpl-E4fMGg7qiFdS5fFhRhtrLK04jdPud",
+        "service_tier": "default",
+        "finish_reason": "tool_calls",
+        "logprobs": null
+      },
+      "id": "lc_run--019f8d3c-c950-7ce1-b181-24aa066cd5ba-0",
+      "tool_calls": [
+        {
+          "name": "search",
+          "args": {
+            "query": "current weather in Tokyo"
+          },
+          "id": "call_IRK7RPKsCaHm6PYdiszJowVc",
+          "type": "tool_call"
+        }
+      ],
+      "invalid_tool_calls": [],
+      "usage_metadata": {
+        "input_tokens": 71,
+        "output_tokens": 16,
+        "total_tokens": 87,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 0
+        }
+      }
+    },
+    {
+      "type": "ToolMessage",
+      "content": "Tokyo is very sunny",
+      "name": "search",
+      "id": "ce3b1fc6-2520-430d-a5cf-03af51661647",
+      "tool_call_id": "call_IRK7RPKsCaHm6PYdiszJowVc"
+    },
+    {
+      "type": "AIMessage",
+      "content": "The current weather in Tokyo is very sunny.",
+      "additional_kwargs": {
+        "refusal": null
+      },
+      "response_metadata": {
+        "token_usage": {
+          "completion_tokens": 10,
+          "prompt_tokens": 98,
+          "total_tokens": 108,
+          "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+          },
+          "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+          }
+        },
+        "model_provider": "openai",
+        "model_name": "gpt-4o-2024-08-06",
+        "system_fingerprint": "fp_6cd46c5087",
+        "id": "chatcmpl-E4fMHwlDVD9SOIY2J6mS2huCBKy6c",
+        "service_tier": "default",
+        "finish_reason": "stop",
+        "logprobs": null
+      },
+      "id": "lc_run--019f8d3c-d08c-7d42-8e0e-641796db4761-0",
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": {
+        "input_tokens": 98,
+        "output_tokens": 10,
+        "total_tokens": 108,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 0
+        }
+      }
+    }
+  ]
+}
