@@ -32,9 +32,9 @@ def main():
         template=summary_template,
     )
 
-    #llm = ChatOpenAI(model_name="gpt-4o",temperature=0)
+    llm = ChatOpenAI(model="gpt-4o",temperature=0)
     '''Notice how Two interesting facts about them. is not generated'''
-    llm = ChatOllama(temperature=0, model="gemma3:270m")
+    #llm = ChatOllama(temperature=0, model="gemma3:270m")
 
     ''' LCEL - LangChain Execution Language - is a new way to define chains in LangChain. It allows you to define chains in a more declarative way, using a simple syntax. In this example, we will use LCEL to define a chain that takes the output of the prompt template and passes it to the LLM. The output of the LLM will be printed to the console.'''
     ''' input of left component is given to right template'''
